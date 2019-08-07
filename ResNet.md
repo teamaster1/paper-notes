@@ -16,4 +16,4 @@
     更容易训练。
     其次，增加一个shortcut connection有利于反向传播训练时梯度传递到更深层。
 ##  公式推导
-![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
+![image](http://github.com/teamaster1/paper-notes/images/resNetfuc.jpg)

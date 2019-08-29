@@ -12,7 +12,7 @@
 
   skip-gram是根据当前词预测上下文的模型，输入one-hot of a word，输出和输入相同dim的一组probability，代表每个词和这个词的相关性。神经网络类似autoencoder的模型。
 
-  ![Alt text](image1.png)
+  ![Alt text](https://github.com/teamaster1/paper-notes/edit/master/paper分享会/image1.png)
 
   中间的hidden Layer就是词向量化的表示。
 

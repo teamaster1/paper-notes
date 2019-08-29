@@ -24,7 +24,7 @@
   
   1. DeepWalk随机游走
   
-     ![Alt text](paper-notes/paper分享会/image2.PNG)
+     ![Alt text](image2.PNG)
   
      对于一个node，采用随机的策略从neighbor中选取下一个node，从而形成节点序列。然后用skipgram学习节点的向量表示。
   

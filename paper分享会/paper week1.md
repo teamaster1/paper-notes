@@ -24,17 +24,17 @@
   
   1. DeepWalk随机游走
   
-     ![Alt text](paper-notes/paper分享会/image2.png)
+     ![Alt text](paper-notes/paper分享会/image2.PNG)
   
      对于一个node，采用随机的策略从neighbor中选取下一个node，从而形成节点序列。然后用skipgram学习节点的向量表示。
   
-     ![1567065501707](image3.png)
+     ![1567065501707](image3.PNG)
   
   2. Node2Vec
   
      和deepwalk相似，只不过在选取策略上引入p，q两个参数控制是DFS还是BFS。
   
-     ![1567065675197](image4.png)
+     ![1567065675197](image4.PNG)
   
      dtx表示v的上一个节点t和v下一个节点x之间的距离，如果dtx=0，表示v向回走概率为1/p(广度优先)，dtx=2表示x是v的邻居但不是t的邻居，概率为1/q（深度优先）。如果x既是t的邻居又是v的邻居，概率为1.
   
@@ -44,7 +44,7 @@
   
      有两种相似度定义：
   
-     ![1567066110532](image5.png)
+     ![1567066110532](image5.PNG)
   
      first-order只能用于无向图，而second-order可以用于无向图和有向图。
 
